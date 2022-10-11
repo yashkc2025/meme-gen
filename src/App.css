@@ -2,22 +2,28 @@
   align-items: center;
 }
 
-.box{
+.box {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width:60rem;
+  width: 60rem;
   height: 60rem;
   background-color: aqua;
-  margin:auto;
+  margin: auto;
 }
 
-.navbar{
+.navbar {
   height: 8rem;
   background-color: greenyellow;
+  display: flex;
 }
 
-.navbar > img{
-  height:8rem;
+.navbar > img {
+  height: 8rem;
+  margin-left: -2rem;
+}
+
+.navbar > h1 {
+  padding-top: 1rem;
 }
